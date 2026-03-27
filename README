@@ -1,0 +1,72 @@
+# Big Mart Sales Prediction
+
+## Project Overview
+
+This project predicts the sales of products in Big Mart stores using Linear Regression.
+It uses a dataset taken from Kaggle and applies machine learning techniques to estimate sales based on product and store details.
+
+---
+
+## Objective
+
+The main objective of this project is to predict **Item Outlet Sales** and understand how different features affect sales.
+It also demonstrates the use of Linear Regression in a real-world problem.
+
+---
+
+## Dataset
+
+The dataset used in this project is obtained from Kaggle.
+It contains information about products and outlets such as:
+
+* Item Weight
+* Item Visibility
+* Item MRP
+* Outlet Establishment Year
+* Item Type
+* Outlet Size
+* Outlet Location Type
+* Outlet Type
+
+**Target Variable:**
+
+* Item_Outlet_Sales
+
+---
+
+## Model Used
+
+This project uses **Linear Regression**, a supervised machine learning algorithm used to predict continuous values.
+It finds a relationship between input features and the target variable (sales).
+
+---
+
+## Methodology
+
+* Data cleaning and preprocessing
+* Handling missing values
+* Converting categorical data into numerical form
+* Splitting data into training and testing sets
+* Training the Linear Regression model
+* Making predictions
+
+---
+
+## Deployment
+
+The model is deployed using Streamlit to create a simple user interface where users can input values and get predicted sales.
+
+---
+
+## Conclusion
+
+This project shows how Linear Regression can be used to solve real-world prediction problems.
+It covers the complete process from data preprocessing to deployment.
+
+---
+
+## References
+
+* Kaggle Dataset
+* Scikit-learn Documentation
+* Streamlit Documentation
